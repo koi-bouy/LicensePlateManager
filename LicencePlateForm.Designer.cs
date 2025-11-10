@@ -162,8 +162,8 @@
             // toolStripStatusLabel1
             // 
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(151, 20);
-            toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(184, 20);
+            toolStripStatusLabel1.Text = "Messages will appear here";
             // 
             // textBox1
             // 
@@ -180,6 +180,7 @@
             btnAdd.TabIndex = 11;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnDelete
             // 
@@ -218,6 +219,7 @@
             btnReset.TabIndex = 16;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = false;
+            btnReset.Click += btnReset_Click;
             // 
             // btnSave
             // 
